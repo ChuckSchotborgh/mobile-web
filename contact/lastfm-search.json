@@ -1,0 +1,59 @@
+<script>
+    LFM.set("ParentResource", {"id":"1013203",
+                                "type":6,
+                                "name":"Switchfoot",
+                                "url":"\/music\/Switchfoot",
+                                "image":{"small":"http:\/\/userserve-ak.last.fm\/serve\/34\/51080385.jpg",
+                                "smallsquare":"http:\/\/userserve-ak.last.fm\/serve\/34s\/51080385.jpg",
+                                "medium":"http:\/\/userserve-ak.last.fm\/serve\/64\/51080385.jpg",
+                                "mediumsquare":"http:\/\/userserve-ak.last.fm\/serve\/64s\/51080385.jpg",
+                                "large":"http:\/\/userserve-ak.last.fm\/serve\/126\/51080385.jpg",
+                                "largesquare":"http:\/\/userserve-ak.last.fm\/serve\/126s\/51080385.jpg",
+                                "mega":"http:\/\/userserve-ak.last.fm\/serve\/252\/51080385.jpg",
+                                "original":"http:\/\/userserve-ak.last.fm\/serve\/_\/51080385\/Switchfoot+newsite7.jpg"}
+                                });
+    LFM.Adserver.showAds = true;
+    LFM.set("Session", {"cookieHost":".last.fm",
+                        "host":"www.last.fm",
+                        "staticHost":
+                        "http:\/\/cdn.last.fm",
+                        "wsHost":"ws.audioscrobbler.com",
+                        "userserveHost":"http:\/\/userserve-ak.last.fm",
+                        "wsKey":"ceec2bb03d4c5929f0d6667fc266dc75",
+                        "formtoken":"cc6fb227ddaeeecb16af118daa2236c6c9e8b0b4",
+                        "location":"us",
+                        "language":"en",
+                        "ajaxhost":"ajax.last.fm",
+                        "templatePath":"\/templates\/224345",
+                        "jsPath":"http:\/\/cdn.last.fm\/javascript\/javascript\/224345",
+                        "cssPath":"http:\/\/cdn.last.fm\/css\/css\/224515",
+                        "ajaxBearerToken":"sumochuck|1361262332|2d1baa5df533cf8266701346f28b7aa37a1e7e1b",
+                        "loggedIn":true,
+                        "subscriber":false,
+                        "userURL":"\/user\/sumochuck",
+                        "libraryURL":"\/user\/sumochuck\/library",
+                        "userName":"sumochuck",
+                        "prefersClient":false
+                        });
+    LFM.set("resTypes", {
+        EVENT: 29,
+        ARTIST: 6,
+        ALBUM: 8,
+        TRACK: 9,
+        GROUP: 20,
+        TAG: 32,
+        USER: 4,
+        LABEL: 10
+    });
+    LFM.set("resTypeLookup", {
+        29: "Event",
+        6: "Artist",
+        8: "Album",
+        9: "Track",
+        20: "Group",
+        32: "Tag",
+        4: "User",
+        10: "Label"
+    });
+    LFM.set("String", {toRedStr: "Simply Red",toBlackStr: "Paint it Black",okText: "OK",cancelText: "Cancel",clickToEditText: "Click to edit",savingText: "Saving…",loadingText: "Loading…",deletingText: "Deleting…",thereWasAnError: "There was an error.",dialogLoadError: "There was an error loading this dialog.",fileTooBig: "Sorry, the file is too big.",noFile: "Please choose a file.",uploadCancelled: "Upload Cancelled.",deleteMessageTitle: "Delete Message",deleteMessagePrompt: "Are you sure you want to delete this message?",deleteFriendPrompt: "Are you sure you want to delete this friend?",deleteImage: "Are you sure you want to delete this image?",deleteButtonText: "Delete",done: "Done",backText: "Back",yesText: "Yes",noText: "No",saveText: "Save",saveTitle: "Add to profile",sendText: "Send",sendTitle: "Share with friends",addTitle: "Add to library",tagTitle: "Add tags",playlistTitle: "Add to playlist",befriendTitle: "Add a friend",labsfeedbackTitle: "Give us your feedback",joinTitle: "Join this group",loved: "Loved",RemoveFromLibraryTitle: "Remove from library",uploadImageTitle: "Upload Image",uploadVideoTitle: "Upload Video",usernoteTitle: "Add a note",cleanupBioTitle: "Cleanup Bio",flageventTitle: "Flag for review",setLocationTitle: "Set your Location",newWindowTooltip: "This link will open in a new window",unloadWarningMessage: "This will stop Radio Playback",trackLoved: "You loved this track",playbackStopped: "Playback stopped",loadingTrackInfo: "Loading track information",errorLoadingTrackInfo: "Error loading track information",emailLineup: "Email this",uploadMessages: {mayTakeLonger: "Sorry, this may take slightly longer than usual. Hold on a couple of seconds.",uploading: "Uploading…",endUploading: "Done",progressDisplay: "PERCENTUPLOADED% complete (TRANSFERRATE kb/s) – TIMEREMAINING seconds remaining",progressComplete: "100% complete",failedRetrying: "Failed retrying upload, bailed.",processingMedia: "Processing media…",unsupportedFormat: "Sorry, the file you uploaded isn’t encoded in a supported format. Please try again.",uploadError: "There was an error uploading your video, please verify that the file you are uploading is not too large or of an incorrect format and try again."},shortMonths: {'1': "Jan",'2': "Feb",'3': "Mar",'4': "Apr",'5': "May",'6': "Jun",'7': "Jul",'8': "Aug",'9': "Sep",'10': "Oct",'11': "Nov",'12': "Dec"},resTypePlural: {29: "Events",6: "Artists",8: "Albums",9: "Tracks",20: "Groups",32: "Tags",4: "Users","friends":   "Friends",10: "Labels"}});LFM.set("Element", {icon_loved_indicator: "<img class=\"icon loved_indicator_icon\" width=\"11\" height=\"9\" src=\"http:\/\/cdn.last.fm\/flatness\/clear.gif\" style=\"\" \/>",icon_tag: "<img class=\"icon tag_icon\" width=\"14\" height=\"14\" src=\"http:\/\/cdn.last.fm\/flatness\/clear.gif\" style=\"\" \/>",icon_dismiss: "<img class=\"icon dismiss_icon\" width=\"16\" height=\"16\" src=\"http:\/\/cdn.last.fm\/flatness\/clear.gif\" style=\"\" \/>",icon_play: "<img class=\"transparent_png play_icon\" width=\"13\" height=\"13\" alt=\"Play\" src=\"http:\/\/cdn.last.fm\/flatness\/preview\/play_indicator.png\" style=\"\" \/>"});
+</script>

@@ -1,0 +1,153 @@
+img{
+	float:left;
+}
+img.general{
+	max-width:100%;
+}
+/* ------------------------------------------------------------------------------------
+--  MAIN CONTENT (BLOCK2)
+------------------------------------------------------------------------------------ */
+.black{
+	background:#1a1a1a;
+	border-top:1px solid #1f1f1f;
+	padding:0.2% 0;
+	width:100%;
+	float:left;
+}
+
+
+/* ------------------------------------------------------------------------------------
+--  MAIN CONTENT (BLOCK3)
+------------------------------------------------------------------------------------ */
+section{
+	float:left;
+	width:100%;
+	margin: 0 0 40px 0;
+}
+section.last{
+	margin:0;
+}
+article{
+	float:left;
+	width:100%;;
+}
+.vcard{
+	float:left;
+	margin:0 0 20px 0;
+}
+.vcard p{
+	overflow:hidden;
+}
+/* ------------------------------------------------------------------------------------
+--  MAIN CONTENT RIGHTSIDE
+------------------------------------------------------------------------------------ */
+.rightside{
+	float:left;
+	width:63.6666%; /*rule of thirds 1023.9989px 100% is equal to 1536px width of inner-wrap*/
+	margin:40px 0;
+}
+.rightside figure{
+	padding:20px;
+	background:#f0f0f0;
+	margin:0 3% 3% 0;
+}
+#map_canvas{
+	width:99.96%;
+	height:18em;
+	min-height:100%;
+	overflow:hidden;
+	border:1px solid #fff;
+}
+/* ------------------------------------------------------------------------------------
+--  MAIN CONTENT LEFTSIDE
+------------------------------------------------------------------------------------ */
+.leftside{
+	float:left;
+	width:33.3334%; /*rule of thirds 512.0010px 100% is equal to 1536px width of inner-wrap*/
+	margin: 40px 3% 40px 0;/*46.08px*/
+}
+h3.trigger{
+	padding: 0;
+	margin: 0 0 10px 0;
+	width: 100%;
+	float: left;
+} 
+.toggle_container{
+	overflow: hidden;
+	width: 100%;
+	margin-bottom:10px;
+	display:none;
+}
+h3.trigger a{
+    text-shadow:1px 1px 0 rgba(255, 255, 255, 0.7);
+	text-transform:uppercase;
+    color:#949493;
+	display: block;
+	font-size:0.9em;
+	background:#e6e6e6;
+	border:1px solid #ddd;
+	padding:2%;
+	width:96%;
+}
+h3.trigger a:hover{ 
+    color: #666; 
+}
+form{
+	float:left;
+	width:100%;
+	background:#e6e6e6;
+	border:1px solid #ddd;
+}
+legend{
+	float:left;
+	width:100%;
+	margin:0 0 4% 0;
+	line-height:1.5em;
+	color:#515151;
+	text-shadow:0 1px 1px #fff;	
+}
+fieldset#first{
+	float:left;
+	width:92%;
+	padding:4% 4% 0 4%;	
+}
+fieldset#second{
+	float:left;
+	width:92%;
+	padding:0 0 4% 0;	
+}
+label{
+	float:left;
+	width:100%;
+	margin:0 0 2% 0;
+}
+input, textarea{
+	padding:2%;
+	border:1px solid #ddd;
+	background:#f0f0f0;
+	margin:0 0 4% 0;
+	float:left;
+	width:95.7%;
+	font-size:1.2em;
+	color:#515151;
+	text-shadow:0 1px 1px #fff;	
+}
+.buttonsubmit{
+	background:#a80000;
+	border:1px solid rgba(255,255,255,0.5);
+	-moz-box-shadow:0 2px 6px #000;
+	-webkit-box-shadow:0 2px 6px #000;
+	-o-box-shadow:0 2px 6px #000;
+	-ktml-box-shadow:0 2px 6px #000;
+	-ms-box-shadow:0 2px 6px #000;
+	box-shadow:0 1px 1px #555;
+	padding:0.8em 1.2em;
+	text-align:center;
+	color:#f0f0f0;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	cursor:pointer;
+}
+.buttonsubmit:hover{
+	background:#910101;
+}
